@@ -50,6 +50,27 @@
 
       <h2 class="text-h4">DAHW – Deutsche Lepra- und Tuberkulosehilfe e.V.</h2>
       <h2 class="text-h4">Weltladen Würzburg</h2>
+      <p>
+      Plattnerstraße 14<br />
+      97070 Würzburg<br />
+      www.weltladen-wuerzburg.de<br />
+      initiative@weltladen-wuerzburg.de<br />
+      Tel.: 0931 – 17308<br />
+      Ansprechpartnerinnen: Lea Pfeifer & Maria Sauter<br />
+      </p>
+      <p>
+      Der Weltladen Würzburg ist einer von rund 850 Weltläden in Deutschland. Trägerin des 1977
+      gegründeten Ladens ist die gemeinnützige Initiative Eine Welt e. V. Als Modell für solidarisches Handeln
+      zeigen wir, wie eine menschliche und ökologische Wirtschaftsweise aussehen kann. Dabei verstehen wir
+      uns nicht nur als Fachgeschäft für fair gehandelte Produkte, sondern auch als Ort für politische
+      Kampagnenarbeit, als Raum der Begegnung zwischen den Kulturen und als Lernort für
+      entwicklungspolitisches Handeln. Als eine von 25 bayerischen Eine Welt Stationen bieten wir
+      Bildungsangebote für Gruppen und Schulklassen und sind Anlaufstelle für Informationen, Medien und
+      Materialien rund um die Themen Fairer Handel und Globales Lernen. Durch die Schaffung von
+      Bewusstsein für globale Zusammenhänge und die Folgen unseres eigenen Konsum- und Lebensstils
+      möchten wir Verständnis für die Belange des Globalen Südens wecken und zu einer zukunftsfähigen
+      Welt für Alle beitragen. Unser Team freut sich über Verstärkung.
+      </p>
     </article>
   </q-page>
 </template>

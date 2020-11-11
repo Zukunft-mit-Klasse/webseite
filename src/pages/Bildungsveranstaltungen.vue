@@ -12,20 +12,48 @@
         <q-select v-model="selectedTheme" :options="themes" label="Thema" clearable/>
       </div>
     </div>
+    <div class="row q-mt-lg q-mb-lg q-col-gutter-lg">
+      <div class="col-lg-4 col-md-6 col-sm-12"
+           v-for="(event, index) in filteredEvents"
+           v-bind:key="event['Titel der Veranstaltung']"
+      >
+        <event-card
+          :event="event"
+          :index="index"
+        />
+      </div>
+    </div>
+
   </q-page>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+import { defineComponent } from '@vue/composition-api';
+import EventCard from 'components/EventCard.vue';
+import events from 'assets/events/events.json';
+import { Event } from 'components/models';
+
 
 export default defineComponent({
   name: 'PageBildungsveranstaltungen',
-  data(){
+  components: {EventCard},
+  data(): {
+    targetGroups: string[],
+    media: string[],
+    themes: string[],
+    selectedGroup: string,
+    selectedMedium: string,
+    selectedTheme: string,
+    events: Event[]
+  }{
     return {
       targetGroups: [
+        'Alle',
+        'Berufsschule',
+        'Förderschule',
         'Grundschule',
-        'Sekundarstufe 1',
-        'Sekundarstufe 2'
+        'Sekundarstufe I',
+        'Sekundarstufe II'
       ],
       media: [
         'analog',
@@ -43,7 +71,30 @@ export default defineComponent({
       ],
       selectedGroup: '',
       selectedMedium: '',
-      selectedTheme: ''
+      selectedTheme: '',
+      events
+    }
+  },
+  computed: {
+    filteredEvents() {
+      let filteredEvents: Event[] = this.events;
+
+      if(this.selectedGroup) {
+        filteredEvents = filteredEvents.filter((event: Event) => event['Zielgruppe'].includes(this.selectedGroup) || event['Zielgruppe'] == 'alle')
+      }
+
+      if(this.selectedMedium) {
+        console.log(this.selectedMedium);
+        filteredEvents = this.selectedMedium === 'digital'
+          ? filteredEvents.filter((event: Event) => event['Veranstaltungsort'].includes('digital'))
+          : filteredEvents.filter((event: Event) => !event['Veranstaltungsort'].includes('digital'))
+      }
+
+      if(this.selectedTheme) {
+        filteredEvents = filteredEvents.filter((event: Event) => event['Themenfeld 1'].includes(this.selectedTheme) || event['Themenfeld 2'].includes(this.selectedTheme))
+      }
+
+      return filteredEvents;
     }
   }
 });
