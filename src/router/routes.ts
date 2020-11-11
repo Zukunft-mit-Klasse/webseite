@@ -6,6 +6,11 @@ const routes: RouteConfig[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
+      { path: '/projekt', component: () => import('pages/Project.vue')},
+      { path: '/themen', component: () => import('pages/Themes.vue')},
+      { path: '/bildungsveranstaltungen', component: () => import('pages/Bildungsveranstaltungen.vue')},
+      { path: '/projektideen', component: () => import('pages/Projektideen.vue')},
+      { path: '/ueber-uns', component: () => import('pages/About.vue')},
       { path: '/impressum', component: () => import('pages/Imprint.vue') }
     ]
   },

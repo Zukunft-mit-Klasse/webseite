@@ -6,12 +6,14 @@
         <q-btn class="desktop-hide bg-primary" dense flat round icon="menu" @click="left = !left" />
 
         <nav class="mobile-hide main-menu full-width row justify-center">
-          <a href="/" class="text-h6 q-px-md">Home</a>
-          <a href="/" class="text-h6 q-px-md">Themen</a>
-          <a href="/" class="text-h6 q-px-md">Bildungsverantstaltungen</a>
-          <a href="/" class="text-h6 q-px-md">Projektideen</a>
-          <a href="/" class="text-h6 q-px-md">Für Lehrkräfte</a>
-          <a href="/" class="text-h6 q-px-md">Über uns</a>
+          <router-link
+            v-for="item in menu"
+            v-bind:key="item.route"
+            :to="item.route"
+            class="text-h6 q-px-md"
+          >
+            {{item.caption}}
+          </router-link>
         </nav>
       </q-toolbar>
 
@@ -21,8 +23,10 @@
 
     <q-drawer v-model="left" side="left" overlay elevated>
       <q-list bordered separator>
-        <q-item clickable v-ripple>
-          <q-item-section><a href="/" class="text-h6">Start</a></q-item-section>
+        <q-item v-for="item in menu" v-bind:key="item.route" clickable v-ripple>
+          <q-item-section>
+            <router-link :to="item.route" class="text-h6">{{item.caption}}</router-link>
+          </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
           <q-item-section><a href="/impressum" class="text-h6">Impressum & Datenschutz</a></q-item-section>
@@ -37,8 +41,7 @@
     <q-footer>
       <div class="footer-menu row justify-end q-py-sm ">
         <a href="/" class="q-px-md">Kontakt</a>
-        <a href="/" class="q-px-md">Impressum</a>
-        <a href="/" class="q-px-md">Datenschutz</a>
+        <a href="/impressum" class="q-px-md">Impressum & Datenschutz</a>
       </div>
     </q-footer>
   </q-layout>
@@ -48,7 +51,33 @@
   export default {
     data () {
       return {
-        left: false
+        left: false,
+        menu: [
+          {
+            route: '/',
+            caption: 'Home'
+          },
+          {
+            route: '/projekt',
+            caption: 'Projekt'
+          },
+          {
+            route: '/themen',
+            caption: 'Themen'
+          },
+          {
+            route: '/bildungsveranstaltungen',
+            caption: 'Bildungsveranstaltungen'
+          },
+          {
+            route: '/projektideen',
+            caption: 'Projektideen'
+          },
+          {
+            route: '/ueber-uns',
+            caption: 'Über uns'
+          },
+        ]
       }
     }
   }
