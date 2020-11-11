@@ -95,7 +95,7 @@
   import { Event } from './models';
 
     export default Vue.extend({
-      name: "EventCard",
+      name: 'EventCard',
       props: {
           event: Event,
           index: Number
