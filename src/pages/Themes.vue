@@ -1,6 +1,6 @@
 <template>
   <q-page class="items-center justify-evenly">
-    <h2 class="text-h3">Globales Lernen</h2>
+    <h2 class="text-h3 green">Globales Lernen</h2>
     <p>
       Die Welt rückt immer näher zusammen. Globales Lernen kann dazu beitragen, weltweite
       Verflechtungen und die mit ihnen entstehenden wirtschaftlichen, sozialen, ökologischen, politischen
@@ -32,3 +32,9 @@ export default defineComponent({
   name: 'PageThemes',
 });
 </script>
+
+<style scoped>
+  .green{
+    color: #00b050;
+  }
+</style>

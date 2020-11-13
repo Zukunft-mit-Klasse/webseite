@@ -37,7 +37,7 @@
         Weltladen Aschaffenburgs und des Weltladens Würzburg vergeben.
       </p>
 
-      <h2 class="text-h3 green">Einreichung der Bewerbung / Bewerbungszeitraum Teilnahme im Schuljahr 2020/21:</h2>
+      <h2 class="text-h3 green">Bewerbungszeitraum im Schuljahr 2020/21:</h2>
       <p>
         Die Bewerbung kann bis <strong>18. Juni 2021</strong> (Poststempel) eingereicht werden.
       </p>

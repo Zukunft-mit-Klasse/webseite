@@ -44,10 +44,6 @@
                 <td class="text-left">{{event['Zielgruppe']}}</td>
               </tr>
               <tr>
-                <td class="text-left">Geeignet für Unterrichtsfächer:</td>
-                <td class="text-left">{{event['Geeignet für Unterrichtsfächer']}}</td>
-              </tr>
-              <tr>
                 <td class="text-left">Veranstaltungsdauer (Min):</td>
                 <td class="text-left">{{event['Dauer der Veranstaltung in Minuten']}}</td>
               </tr>
