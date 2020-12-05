@@ -125,7 +125,7 @@
           ][Math.round(Math.random() * 3)];
         },
         myTargetGroup(): string {
-          const groupStr: string = this.event['Zielgruppe'] === 'alle'
+          const groupStr: string = (this.event['Zielgruppe'] as string).toLowerCase() === 'alle'
             ? this.allGroups
             : this.event['Zielgruppe'] as string;
 
