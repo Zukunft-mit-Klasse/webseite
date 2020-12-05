@@ -44,7 +44,7 @@
               </tr>
               <tr>
                 <td class="text-left">Zielgruppe:</td>
-                <td class="text-left">{{event['Zielgruppe']}}</td>
+                <td class="text-left">{{myTargetGroup}}</td>
               </tr>
               <tr>
                 <td class="text-left">Veranstaltungsdauer (Min):</td>
