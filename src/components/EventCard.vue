@@ -51,6 +51,10 @@
                 <td class="text-left">{{event['Dauer der Veranstaltung in Minuten']}}</td>
               </tr>
               <tr>
+                <td class="text-left">Kosten:</td>
+                <td class="text-left">{{event['Kosten']}}€</td>
+              </tr>
+              <tr>
                 <td class="text-left">Veranstaltungsort:</td>
                 <td class="text-left">{{event['Veranstaltungsort']}}</td>
               </tr>
@@ -130,6 +134,9 @@
             : this.event['Zielgruppe'] as string;
 
           return groupStr;
+        },
+        myConst(): string {
+
         },
         src(): string {
           return this.event['field17']
