@@ -1,5 +1,8 @@
 <template>
-  <q-card flat bordered @click="modalOpen = true" :class="color">
+  <q-card flat bordered @click="modalOpen = true" class="border-blue cursor-pointer">
+    <div class="img_logo_container">
+      <img class="logo img_logo" v-if="src" :src="src" />
+    </div>
     <q-card-section>
       <div class="text-h6">{{event['Titel der Veranstaltung']}}</div>
     </q-card-section>
@@ -11,9 +14,9 @@
     <q-separator inset />
 
     <q-card-section>
-      <span class="text-overline">{{event['Name Institution']}} - {{event['Veranstaltungsort']}}</span>
-      <br />
-      <span class="text-caption">Versanstaltungsdauer: {{event['Dauer der Veranstaltung in Minuten']}} Minuten</span>
+      <span class="text-overline">{{event['Name Institution']}}</span>
+      <span class="text-caption block q-mt-md">Versanstaltungsdauer: {{event['Dauer der Veranstaltung in Minuten']}} Minuten;</span>
+      <span class="text-caption block q-mt-sm">{{myTargetGroup}}</span>
     </q-card-section>
 
 
@@ -94,7 +97,8 @@
       name: 'EventCard',
       props: {
           event: Event,
-          index: Number
+          index: Number,
+          allGroups: String
       },
       data() {
         return {
@@ -103,7 +107,7 @@
       },
       computed: {
         abstract(): string {
-          return this.description.substr(0,120)+'&hellip;';
+          return this.description.substr(0,120)+'&hellip; <span class="text-italic font-xs"> [weiter lesen]</span>';
         },
         description(): string {
           // @ts-ignore
@@ -119,6 +123,18 @@
             'blue',
             'red'
           ][Math.round(Math.random() * 3)];
+        },
+        myTargetGroup(): string {
+          const groupStr: string = this.event['Zielgruppe'] === 'alle'
+            ? this.allGroups
+            : this.event['Zielgruppe'] as string;
+
+          return groupStr;
+        },
+        src(): string {
+          return this.event['field17']
+            ? '/Logos/' + (this.event['field17'] as string)
+            : '';
         }
       },
       methods: {
@@ -133,7 +149,7 @@
     })
 </script>
 
-<style scoped>
+<style>
   .text-overline {
     line-height: 0;
   }
@@ -147,12 +163,27 @@
     cursor: pointer;
   }
 
+  .img_logo_container {
+    float: right;
+    width: 33%;
+  }
+  img.logo.img_logo{
+    max-width:100%;
+    max-height: 75px;
+    padding-right:15px;
+    padding-top: 15px;
+    float:right;
+  }
+
+  .font-xs {
+    font-size: 0.8rem;
+  }
   .green{
     background-color: #b5e6bc;
   }
 
-  .blue {
-    background-color: #c8eaff;
+  .border-blue {
+    border: 2px solid #c8eaff;
   }
 
   .red {

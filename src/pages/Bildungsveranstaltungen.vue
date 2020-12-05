@@ -22,6 +22,7 @@
         <event-card
           :event="event"
           :index="index"
+          :allGroups="allTargetGroups"
         />
       </div>
     </div>
@@ -96,6 +97,9 @@ export default defineComponent({
       }
 
       return filteredEvents;
+    },
+    allTargetGroups (): string {
+      return this.targetGroups.filter((g) => g !== 'Alle').join(', ');
     }
   }
 });
