@@ -1,7 +1,7 @@
 <template>
   <q-page class="items-center justify-evenly">
     <article>
-      <h2 class="text-h3 green">Das Ziel</h2>
+      <h2 class="text-h3 text-green">Das Ziel</h2>
       <p>
         Das Bildungsprojekt &#39;Zukunft mit Klasse&#39; will Schüler*innen für die Themen des Globalen Lernens in
         Form einer Challenge begeistern. Dabei sollen Themen wie bspw. Fairer Handel, globale Gesundheit
@@ -10,7 +10,7 @@
         Bereich Globales Lernen besser mit Lehrkräften und Schüler*innen zu vernetzen.
       </p>
 
-      <h2 class="text-h3 blue">Das Konzept</h2>
+      <h2 class="text-h3 text-blue">Das Konzept</h2>
       <p>
         Für die erfolgreiche Teilnahme an der Challenge des Bildungsprojekts gibt es zwei Kriterien:
       </p>
@@ -28,7 +28,7 @@
         anschließend ausgezeichnet.
       </p>
 
-      <h2 class="text-h3 red">Informationen zur Auszeichnung</h2>
+      <h2 class="text-h3 text-red">Informationen zur Auszeichnung</h2>
       <p>
         Alle Schulklassen sowie alle Klassen / Kurse / Tutor- und Bezugsgruppen an unterfränkische Schulen
         sind herausgefordert, sich um die Auszeichnung &#39;Klasse / Kurs mit Zukunft&#39; zu bewerben und damit
@@ -37,9 +37,10 @@
         Weltladen Aschaffenburgs und des Weltladens Würzburg vergeben.
       </p>
 
-      <h2 class="text-h3 green">Bewerbungszeitraum im Schuljahr 2020/21:</h2>
+      <h2 class="text-h3 text-green">Bewerbungszeitraum im Schuljahr 2020/21:</h2>
       <p>
-        Die Bewerbung kann bis <strong>18. Juni 2021</strong> (Poststempel) eingereicht werden.
+        <del>Die Bewerbung kann bis <strong>18. Juni 2021</strong> (Poststempel) eingereicht werden.</del><br/>
+        <ins>Derzeit ist leider noch nicht absehbar, ob das Projekt im Schuljahr 2020/21 starten kann</ins>
       </p>
       <p>
         Senden Sie das ausgefüllte Formular als Anhang per Mail an dabei@zukunft-mit-klasse.de,
@@ -58,7 +59,7 @@
         Ihnen zurück.
       </p>
 
-      <h2 class="text-h3 blue">Projekt-Zeitraum</h2>
+      <h2 class="text-h3 text-blue">Projekt-Zeitraum</h2>
       <p>
         Es können alle Klassenaktivitäten des laufenden Schuljahres berücksichtigt werden, also vom 1.
         Schultag nach den Sommerferien bis einschließlich der der letzten Schulwochen des Schuljahres, also
@@ -86,19 +87,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-  .green{
-    color: #00b050;
-  }
-
-  .blue {
-    color: #0d77c3;
-  }
-
-  .red {
-    color: #ff4848;
-  }
-
-
   h2 {
     margin-bottom: 1rem;
   }

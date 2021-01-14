@@ -40,7 +40,7 @@
 
     <q-footer>
       <div class="footer-menu row justify-end q-py-sm ">
-        <a href="/" class="q-px-md">Kontakt</a>
+        <a href="/kontakt" class="q-px-md">Kontakt</a>
         <a href="/impressum" class="q-px-md">Impressum & Datenschutz</a>
       </div>
     </q-footer>

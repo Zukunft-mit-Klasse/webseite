@@ -3,7 +3,7 @@
     <article>
       <span class="text-h4 q-mt-lg block">Das Bildungsprojekt Zukunft mit Klasse ist eine gemeinsame Initiative der unterfränkischen Bildungsakteur*innen. Es wird getragen von:</span>
 
-      <h2 class="text-h4 blue">Eine Welt-Regionalpromotorin Unterfranken</h2>
+      <h2 class="text-h4 text-blue">Eine Welt-Regionalpromotorin Unterfranken</h2>
       <p>
       Eine Welt-Arbeit und Eine Welt-Politik fangen zu Hause an, im eigenen Leben, am eigenen
       Wohnort, im eigenen Land. In Bayern lebt Eine Welt-Politik durch die vielen Eine Welt-Akteure,
@@ -30,7 +30,7 @@
       </p>
 
 
-      <h2 class="text-h4 orange">Weltladen / Eine Welt-Station Aschaffenburg</h2>
+      <h2 class="text-h4 text-orange">Weltladen / Eine Welt-Station Aschaffenburg</h2>
       <p>
       Seit 40 Jahren bietet unser Verein mit dem Verkauf fair gehandelter Waren eine
       Handlungsalternative zum derzeitigen ungerechten Weltwirtschaftssystem. Darüber hinaus
@@ -50,7 +50,7 @@
       schurse@weltladen-aschaffenburg.de<br />
       </p>
 
-      <h2 class="text-h4 red">DAHW – Deutsche Lepra- und Tuberkulosehilfe e.V.</h2>
+      <h2 class="text-h4 text-red">DAHW – Deutsche Lepra- und Tuberkulosehilfe e.V.</h2>
       <p>
         Die DAHW Deutsche Lepra- und Tuberkulosehilfe, 1957 als Leprahilfswerk in Würzburg gegründet, ist heute Experte im Kampf gegen armutsbedingte und vernachlässigte Krankheiten. Im Fokus stehen vulnerable (verletzliche) Personengruppen, die aufgrund ihrer Lebensverhältnisse besonders von Krankheit, Behinderung, Ausgrenzung und Armut betroffen oder bedroht sind. Um die Gesundheits- und Lebenssituation der Menschen ganzheitlich und nachhaltig zu verbessern, setzen wir aktuell rund 80 Projekte in 20 Einsatzländern in Asien, Afrika und Lateinamerika um. Die Maßnahmen sind inklusiv gestaltet und setzen auf medizinischer, sozialer und politischer Ebene an. Wir konzentrieren uns darauf, Lücken in bestehenden, meist fragilen Gesundheitssystemen und Kontrollprogrammen zu schließen, indem gemeinsam mit lokalen Partnern vor Ort Infrastrukturen auf- und ausgebaut werden.
         <br />
@@ -66,7 +66,7 @@
       </p>
 
 
-      <h2 class="text-h4 orange">Weltladen Würzburg</h2>
+      <h2 class="text-h4 text-orange">Weltladen Würzburg</h2>
       <p>
       Plattnerstraße 14<br />
       97070 Würzburg<br />
@@ -101,13 +101,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-  .blue {
-    color: #3d2bff;
-  }
-  .orange{
-    color: #ef7c00;
-  }
-  .red {
-    color: #dd042d;
-  }
+
 </style>

@@ -11,6 +11,7 @@ const routes: RouteConfig[] = [
       { path: '/bildungsveranstaltungen', component: () => import('pages/Bildungsveranstaltungen.vue')},
       { path: '/projektideen', component: () => import('pages/Projektideen.vue')},
       { path: '/ueber-uns', component: () => import('pages/About.vue')},
+      { path: '/kontakt', component: () => import('pages/Contact.vue')},
       { path: '/impressum', component: () => import('pages/Imprint.vue') }
     ]
   },
