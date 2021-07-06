@@ -35,6 +35,10 @@
         <q-card-section class="q-pt-none description-text" v-html="description">
         </q-card-section>
 
+        <q-card-section v-if="src">
+          <img class="logo-popup" :src="src" />
+        </q-card-section>
+
         <q-card-section class="q-pt-none q-mt-lg">
           <q-markup-table>
             <tbody>
@@ -135,12 +139,9 @@
 
           return groupStr;
         },
-        myConst(): string {
-
-        },
         src(): string {
-          return this.event['field17']
-            ? '/Logos/' + (this.event['field17'] as string)
+          return this.event['Logo']
+            ? '/Logos/' + (this.event['Logo'] as string)
             : '';
         }
       },
@@ -180,6 +181,12 @@
     padding-right:15px;
     padding-top: 15px;
     float:right;
+  }
+
+  img.logo-popup {
+    max-width: 100%;
+    max-height: 15vh;
+    height: 150px;
   }
 
   .font-xs {

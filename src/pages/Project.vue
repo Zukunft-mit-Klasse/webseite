@@ -37,35 +37,29 @@
         Weltladen Aschaffenburgs und des Weltladens Würzburg vergeben.
       </p>
 
-      <h2 class="text-h3 text-green">Bewerbungszeitraum im Schuljahr 2020/21:</h2>
+      <h2 class="text-h3 text-green">Bewerbung / Zertifizierungsformular</h2>
       <p>
-        <del>Die Bewerbung kann bis <strong>18. Juni 2021</strong> (Poststempel) eingereicht werden.</del><br/>
-        <ins>Derzeit ist leider noch nicht absehbar, ob das Projekt im Schuljahr 2020/21 starten kann</ins>
-      </p>
-      <p>
-        Senden Sie das ausgefüllte Formular als Anhang per Mail an dabei@zukunft-mit-klasse.de,
-        Betreff &#39;Bewerbung – Klasse mit Zukunft&#39;,
-      </p>
-      <p>
-        oder im Original per Post an:<br />
+        Nach erfolgreicher Umsetzung des Projektes an Ihrer Schule können Sie hier das Formular herunterladen,
+        mit dem sich Ihre Klasse um die Auszeichnung 'Klasse / Kurs mit Zukunft' bewerben kann.
+        Senden Sie das ausgefüllte Formular als Anhang per Mail an <a href="mailto:dabei@zukunft-mit-klasse.de?subject=Bewerbung%20–%20Klasse%20mit%20Zukunft">dabei@zukunft-mit-klasse.de</a>, Betreff 'Bewerbung – Klasse mit Zukunft',
+        oder im Original per Post an:
         <br />
-        <b>Weltladen Würzburg</b><br />
+        <br />
+        Weltladen Würzburg<br />
         „Zukunft mit Klasse“ / Lea Pfeifer<br />
         Plattnerstraße 14<br />
         97070 Würzburg<br />
+        Nach Eingang des Bewerbungsformulars melden wir uns baldmöglichst mit einer Bestätigung bei Ihnen zurück.
       </p>
       <p>
-        Nach Eingang des Bewerbungsformulars melden wir uns baldmöglichst mit einer Bestätigung bei
-        Ihnen zurück.
+        Die Bewerbung kann bis 31. Mai 2022 eingereicht werden
       </p>
-
-      <h2 class="text-h3 text-blue">Projekt-Zeitraum</h2>
       <p>
-        Es können alle Klassenaktivitäten des laufenden Schuljahres berücksichtigt werden, also vom 1.
-        Schultag nach den Sommerferien bis einschließlich der der letzten Schulwochen des Schuljahres, also
-        auch nach der Einreichung des Bewerbungsformulars. Wichtig ist, dass die Aktivitäten bis zum Ende
-        des Schuljahres 2020/21 abgeschlossen sind. Für Projekte, die nach dem 18. Juni durchgeführt
-        werden, reichen Sie bitte mit Ihrer Bewerbung eine aussagekräftige Projektskizze ein!
+        Es können alle Klassenaktivitäten des laufenden Schuljahres berücksichtigt werden, also vom 1. Schultag
+        nach den Sommerferien bis einschließlich der der letzten Schulwochen des Schuljahres, also auch nach der
+        Einreichung des Bewerbungsformulars. Wichtig ist, dass die Aktivitäten bis zum Ende des Schuljahres 2021/22
+        abgeschlossen sind. Für Projekte, die nach dem 31. Mai durchgeführt werden, reichen Sie bitte mit Ihrer
+        Bewerbung eine aussagekräftige Projektskizze ein!
       </p>
     </article>
 

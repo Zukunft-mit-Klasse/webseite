@@ -12,7 +12,7 @@
         <q-select v-model="selectedTheme" :options="themes" label="Thema" clearable/>
       </div>
     </div>
-    <div v-masonry="containerId" class="row q-mt-lg q-mb-lg q-col-gutter-lg">
+    <div class="row q-mt-lg q-mb-lg q-col-gutter-lg">
       <div class="col-lg-4 col-md-6 col-sm-12"
            v-masonry-tile
            v-for="(event, index) in filteredEvents"

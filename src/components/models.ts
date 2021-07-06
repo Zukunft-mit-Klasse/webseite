@@ -14,4 +14,5 @@ export interface Event {
   'Titel der Veranstaltung': string;
   'Veranstaltungsort': string;
   'Zielgruppe': string;
+  Logo: string;
 }

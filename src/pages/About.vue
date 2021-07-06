@@ -16,7 +16,7 @@
       <p>
       Getragen wird das Programm von der &quot;Arbeitsgemeinschaft der Eine Welt-Landesnetzwerke
       in Deutschland e.V.&quot; und der Stiftung Nord-Süd-Brücken. Finanziert wird das Programm aus
-      Bundesmitteln (BMZ) sowie von den Ländern. In Bayern ist das Eine Welt Netzwerk Bayern
+      Bundesmitteln (BMZ) sowie von den Ländern. In Bayern ist das Eine Welt Netzwerk Bayern
       e.V., der bayerische Dachverband der &quot;Eine Welt-Akteure&quot;, Träger und Koordinator des
       Programmes. Angesiedelt ist die Stelle in Unterfranken bei der Initiative Eine Welt e.V.
       Würzburg.
@@ -24,9 +24,7 @@
       <p>
       Kontakt:<br />
       Eine Welt-Promotorin Unterfranken<br />
-      Plattnerstr. 14<br />
-      97070 Würzburg<br />
-      unterfranken@eineweltnetzwerkbayern.de.<br />
+      schurse@eineweltnetzwerkbayern.de<br />
       </p>
 
 
@@ -68,14 +66,6 @@
 
       <h2 class="text-h4 text-orange">Weltladen Würzburg</h2>
       <p>
-      Plattnerstraße 14<br />
-      97070 Würzburg<br />
-      www.weltladen-wuerzburg.de<br />
-      initiative@weltladen-wuerzburg.de<br />
-      Tel.: 0931 – 17308<br />
-      Ansprechpartnerinnen: Lea Pfeifer & Maria Sauter<br />
-      </p>
-      <p>
       Der Weltladen Würzburg ist einer von rund 850 Weltläden in Deutschland. Trägerin des 1977
       gegründeten Ladens ist die gemeinnützige Initiative Eine Welt e. V. Als Modell für solidarisches Handeln
       zeigen wir, wie eine menschliche und ökologische Wirtschaftsweise aussehen kann. Dabei verstehen wir
@@ -87,6 +77,14 @@
       Bewusstsein für globale Zusammenhänge und die Folgen unseres eigenen Konsum- und Lebensstils
       möchten wir Verständnis für die Belange des Globalen Südens wecken und zu einer zukunftsfähigen
       Welt für Alle beitragen. Unser Team freut sich über Verstärkung.
+      </p>
+      <p>
+        Plattnerstraße 14<br />
+        97070 Würzburg<br />
+        www.weltladen-wuerzburg.de<br />
+        bildung@weltladen-wuerzburg.de<br />
+        Tel.: 0931 – 17308<br />
+        Ansprechpartnerinnen: Lea Pfeifer & Maria Sauter<br />
       </p>
     </article>
   </q-page>
