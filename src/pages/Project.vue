@@ -41,6 +41,11 @@
       <p>
         Nach erfolgreicher Umsetzung des Projektes an Ihrer Schule können Sie hier das Formular herunterladen,
         mit dem sich Ihre Klasse um die Auszeichnung 'Klasse / Kurs mit Zukunft' bewerben kann.
+        <br />
+        <br />
+        <q-btn color="primary" label="Zertifizierungsformular" />
+      </p>
+      <p>
         Senden Sie das ausgefüllte Formular als Anhang per Mail an <a href="mailto:dabei@zukunft-mit-klasse.de?subject=Bewerbung%20–%20Klasse%20mit%20Zukunft">dabei@zukunft-mit-klasse.de</a>, Betreff 'Bewerbung – Klasse mit Zukunft',
         oder im Original per Post an:
         <br />

@@ -46,6 +46,7 @@
       Treibgasse 3<br />
       63739 Aschaffenburg<br />
       schurse@weltladen-aschaffenburg.de<br />
+        <a href="https://www.weltladen-aschaffenburg.de/" target="_blank">www.weltladen-aschaffenburg.de</a>
       </p>
 
       <h2 class="text-h4 text-red">DAHW – Deutsche Lepra- und Tuberkulosehilfe e.V.</h2>
@@ -60,7 +61,8 @@
         DAHW Deutsche Lepra- und Tuberkulosehilfe e.V.<br />
         Raiffeisenstraße 3<br />
         97080 Würzburg<br />
-        Judith.Asslaender@DAHW.de
+        Judith.Asslaender@DAHW.de<br />
+        <a href="https://www.dahw.de/unsere-arbeit/bildung-und-globales-lernen.html" target="_blank">https://www.dahw.de/unsere-arbeit/bildung-und-globales-lernen.html</a>
       </p>
 
 
@@ -81,7 +83,7 @@
       <p>
         Plattnerstraße 14<br />
         97070 Würzburg<br />
-        www.weltladen-wuerzburg.de<br />
+        <a href="https://www.weltladen-wuerzburg.de" target="_blank">www.weltladen-wuerzburg.de</a><br />
         bildung@weltladen-wuerzburg.de<br />
         Tel.: 0931 – 17308<br />
         Ansprechpartnerinnen: Lea Pfeifer & Maria Sauter<br />
