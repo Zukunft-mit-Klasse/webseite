@@ -16,3 +16,8 @@ export interface Event {
   'Zielgruppe': string;
   Logo: string;
 }
+
+export interface Project {
+  'title': string;
+  'content': string;
+}

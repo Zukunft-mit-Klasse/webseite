@@ -203,4 +203,11 @@
   .red {
     background-color: #ffc8c8;
   }
+
+  @media screen and (min-width: 600px) {
+    .q-dialog__inner--minimized > div {
+      max-width: 750px;
+    }
+  }
+
 </style>

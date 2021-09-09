@@ -43,7 +43,7 @@
         mit dem sich Ihre Klasse um die Auszeichnung 'Klasse / Kurs mit Zukunft' bewerben kann.
         <br />
         <br />
-        <q-btn color="primary" label="Zertifizierungsformular" />
+        <q-btn color="primary" label="Zertifizierungsformular" @click="downloadFile()"/>
       </p>
       <p>
         Senden Sie das ausgefüllte Formular als Anhang per Mail an <a href="mailto:dabei@zukunft-mit-klasse.de?subject=Bewerbung%20–%20Klasse%20mit%20Zukunft">dabei@zukunft-mit-klasse.de</a>, Betreff 'Bewerbung – Klasse mit Zukunft',
@@ -82,6 +82,11 @@ import { defineComponent } from '@vue/composition-api';
 
 export default defineComponent({
   name: 'PageProject',
+  methods: {
+    downloadFile() {
+      window.open('/Zertifizierungsformular_Zukunft_mit_Klasse.pdf')
+    }
+  }
 });
 </script>
 
