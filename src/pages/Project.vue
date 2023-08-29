@@ -30,11 +30,7 @@
 
       <h2 class="text-h3 text-red">Informationen zur Auszeichnung</h2>
       <p>
-        Alle Schulklassen sowie alle Klassen / Kurse / Tutor- und Bezugsgruppen an unterfränkische Schulen
-        sind herausgefordert, sich um die Auszeichnung &#39;Klasse / Kurs mit Zukunft&#39; zu bewerben und damit
-        eine besondere Würdigung Ihres Engagements im Bereich Globalen Lernens zu erhalten. Die
-        Auszeichnung wird nach Eingang und Prüfung durch Vertreter*innen der DAHW Würzburg, des
-        Weltladen Aschaffenburgs und des Weltladens Würzburg vergeben.
+        Alle Schulklassen sowie alle Klassen / Kurse / Tutor- und Bezugsgruppen an unterfränkische Schulen sind herausgefordert, sich um die Auszeichnung 'Klasse / Kurs mit Zukunft' zu bewerben und damit eine besondere Würdigung Ihres Engagements im Bereich Globalen Lernens zu erhalten. Die Auszeichnung wird nach Eingang und Prüfung durch Vertreter*innen der Steuerungsgruppe vergeben.
       </p>
 
       <h2 class="text-h3 text-green">Bewerbung / Zertifizierungsformular</h2>
@@ -57,14 +53,10 @@
         Nach Eingang des Bewerbungsformulars melden wir uns baldmöglichst mit einer Bestätigung bei Ihnen zurück.
       </p>
       <p>
-        Die Bewerbung kann bis 31. Mai 2022 eingereicht werden
+        Die Bewerbung kann bis 31. Mai 2024 eingereicht werden
       </p>
       <p>
-        Es können alle Klassenaktivitäten des laufenden Schuljahres berücksichtigt werden, also vom 1. Schultag
-        nach den Sommerferien bis einschließlich der der letzten Schulwochen des Schuljahres, also auch nach der
-        Einreichung des Bewerbungsformulars. Wichtig ist, dass die Aktivitäten bis zum Ende des Schuljahres 2021/22
-        abgeschlossen sind. Für Projekte, die nach dem 31. Mai durchgeführt werden, reichen Sie bitte mit Ihrer
-        Bewerbung eine aussagekräftige Projektskizze ein!
+        Es können alle Klassenaktivitäten des laufenden Schuljahres berücksichtigt werden, also vom 1. Schultag nach den Sommerferien bis einschließlich der der letzten Schulwochen des Schuljahres, also auch nach der Einreichung des Bewerbungsformulars. Wichtig ist, dass die Aktivitäten bis zum Ende des Schuljahres 2023/24 abgeschlossen sind. Für Projekte, die nach dem 31. Mai durchgeführt werden, reichen Sie bitte mit Ihrer Bewerbung eine aussagekräftige Projektskizze ein!
       </p>
     </article>
 

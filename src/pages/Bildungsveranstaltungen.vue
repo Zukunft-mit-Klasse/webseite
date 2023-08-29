@@ -6,10 +6,10 @@
         <q-select v-model="selectedGroup" :options="targetGroups" label="Zielgruppe" clearable/>
       </div>
       <div class="col">
-        <q-select v-model="selectedMedium" :options="media" label="Medium" clearable/>
+        <q-select v-model="selectedVeranstaltungsformat" :options="veranstaltungsformate" label="Veranstaltungsformat" clearable/>
       </div>
       <div class="col">
-        <q-select v-model="selectedTheme" :options="themes" label="Thema" clearable/>
+        <q-select v-model="selectedSDG" :options="sdgs" label="SDG" clearable/>
       </div>
     </div>
     <div class="row q-mt-lg q-mb-lg q-col-gutter-lg">
@@ -34,19 +34,31 @@
 import { defineComponent } from '@vue/composition-api';
 import EventCard from 'components/EventCard.vue';
 import events from 'assets/events/events.json';
-import { Event } from 'components/models';
+import { Event, sdgs } from 'components/models';
 
+
+const iconFromName = (sdg: string) => {
+  let number = sdg.split(' ')[0];
+  if(number.length < 2) {
+    number = "0"+number;
+  }
+  return `SDG-icon-DE-${number}`;
+}
+
+const iconImgFromName = (sdg: string) => {
+  return iconFromName(sdg) + '.jpg';
+}
 
 export default defineComponent({
   name: 'PageBildungsveranstaltungen',
   components: {EventCard},
   data(): {
     targetGroups: string[],
-    media: string[],
-    themes: string[],
+    veranstaltungsformate: string[],
+    sdgs: string[],
     selectedGroup: string,
-    selectedMedium: string,
-    selectedTheme: string,
+    selectedVeranstaltungsformat: string,
+    selectedSDG: string,
     events: Event[]
   }{
     return {
@@ -58,23 +70,18 @@ export default defineComponent({
         'Sekundarstufe I',
         'Sekundarstufe II'
       ],
-      media: [
-        'analog',
-        'digital'
+      veranstaltungsformate: [
+        'interaktive Unterrichtseinheit mit einer digitalen Lernplattform',
+        'Planspiel',
+        'Powerpoint',
+        'Rundgang',
+        'Vortrag',
+        'Workshop', 
       ],
-      themes: [
-        'Entwicklungszusammenarbeit',
-        'Fairer Handel',
-        'Gesundheit und Krankheit',
-        'Klimawandel',
-        'Kulturen und Werte',
-        'Nachhaltige Entwicklungsziele (SDGs)',
-        'Soziale Gerechtigkeit',
-        'Umweltschutz'
-      ],
+      sdgs: sdgs,
       selectedGroup: '',
-      selectedMedium: '',
-      selectedTheme: '',
+      selectedVeranstaltungsformat: '',
+      selectedSDG: '',
       events
     }
   },
@@ -86,14 +93,13 @@ export default defineComponent({
         filteredEvents = filteredEvents.filter((event: Event) => event['Zielgruppe'].includes(this.selectedGroup) || event['Zielgruppe'] == 'alle')
       }
 
-      if(this.selectedMedium) {
-        filteredEvents = this.selectedMedium === 'digital'
-          ? filteredEvents.filter((event: Event) => event['Veranstaltungsort'].includes('digital'))
-          : filteredEvents.filter((event: Event) => !event['Veranstaltungsort'].includes('digital'))
+      if(this.selectedVeranstaltungsformat) {
+        filteredEvents = filteredEvents.filter(e => e['Art der Veranstaltung'].includes(this.selectedVeranstaltungsformat))
       }
 
-      if(this.selectedTheme) {
-        filteredEvents = filteredEvents.filter((event: Event) => event['Themenfeld 1'].includes(this.selectedTheme) || event['Themenfeld 2'].includes(this.selectedTheme))
+      if(this.selectedSDG) {
+        const iconName = iconFromName(this.selectedSDG);
+        filteredEvents = filteredEvents.filter(e => e.sdgs.includes(iconName)); 
       }
 
       return filteredEvents;

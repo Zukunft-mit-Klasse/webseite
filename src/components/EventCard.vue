@@ -13,11 +13,21 @@
 
     <q-separator inset />
 
-    <q-card-section>
-      <span class="text-overline">{{event['Name Institution']}}</span>
-      <span class="text-caption block q-mt-md">Versanstaltungsdauer: {{event['Dauer der Veranstaltung in Minuten']}} Minuten;</span>
-      <span class="text-caption block q-mt-sm">{{myTargetGroup}}</span>
+    <q-card-section class="flex">
+      <div>
+        <span class="text-overline">{{event['Name Institution']}}</span>
+        <span class="text-caption block q-mt-md">Versanstaltungsdauer: {{event['Dauer der Veranstaltung in Minuten']}} Minuten;</span>
+        <span class="text-caption block q-mt-sm">{{myTargetGroup}}</span>
+      </div>
+      <div class="img_sdg_container">
+        <img 
+          class="sdg img_sdg" 
+          v-for="src in event['sdgs']" 
+          v-bind:key="src" 
+          :src="getSdgPath(src)" />
+      </div>
     </q-card-section>
+
 
 
     <q-dialog v-model="modalOpen" transition-show="flip-down" transition-hide="flip-up">
@@ -43,8 +53,12 @@
           <q-markup-table>
             <tbody>
               <tr>
-                <td class="text-left">Themenfelder:</td>
-                <td class="text-left">{{themes}}</td>
+                <td class="text-left">SDG:</td>
+                <td class="text-left">
+                  <span class="block" v-for="sdg in sdgs" v-bind:key="sdg">
+                    {{sdg}}
+                  </span>
+                </td>
               </tr>
               <tr>
                 <td class="text-left">Zielgruppe:</td>
@@ -99,7 +113,7 @@
 
 <script lang="ts">
   import Vue from 'vue';
-  import { Event } from './models';
+  import { Event, sdgs } from './models';
 
     export default Vue.extend({
       name: 'EventCard',
@@ -121,9 +135,9 @@
           // @ts-ignore
           return this.nl2br(this.event['Beschreibung']);
         },
-        themes(): string {
+        sdgs(): string[] {
           // @ts-ignore
-          return [this.event['Themenfeld 1'], this.event['Themenfeld 2']].filter((e) => !!e).join(', ');
+          return this.event['sdgs'].map((e) => this.sdgNameFromImg(e));
         },
         color(): string {
           return [
@@ -146,6 +160,13 @@
         }
       },
       methods: {
+        getSdgPath(img: string) {
+          return '/SDG/' + img + '.jpg';
+        },
+        sdgNameFromImg(img: string) {
+          const index = Number(img.split('-')[3]);
+          return sdgs[index];
+        },
         nl2br (str?: string, is_xhtml?: boolean) {
           if (typeof str === 'undefined' || str === null) {
             return '';
@@ -181,6 +202,19 @@
     padding-right:15px;
     padding-top: 15px;
     float:right;
+  }
+
+  .img_sdg_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
+    place-self: end;
+    flex-grow: 1;
+  }
+  .img_sdg_container img {
+    width: 50px;
+    place-self: end;
   }
 
   img.logo-popup {

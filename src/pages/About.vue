@@ -3,31 +3,6 @@
     <article>
       <span class="text-h4 q-mt-lg block">Das Bildungsprojekt Zukunft mit Klasse ist eine gemeinsame Initiative der unterfränkischen Bildungsakteur*innen. Es wird getragen von:</span>
 
-      <h2 class="text-h4 text-blue">Eine Welt-Regionalpromotorin Unterfranken</h2>
-      <p>
-      Eine Welt-Arbeit und Eine Welt-Politik fangen zu Hause an, im eigenen Leben, am eigenen
-      Wohnort, im eigenen Land. In Bayern lebt Eine Welt-Politik durch die vielen Eine Welt-Akteure,
-      in denen sich mehrere tausend Menschen im Rahmen bürgerschaftlichen Engagements
-      engagieren. Das Eine Welt-PromotorInnenprogramm soll dieses Engagement stärken. Es
-      unterstützt Initiativen, Organisationen und Einzelpersonen in ihrem Einsatz für globale
-      Gerechtigkeit. Eine Welt-PromotorInnen geben Anstöße, informieren, beraten, vernetzen und
-      bieten Weiterbildung an.
-      </p>
-      <p>
-      Getragen wird das Programm von der &quot;Arbeitsgemeinschaft der Eine Welt-Landesnetzwerke
-      in Deutschland e.V.&quot; und der Stiftung Nord-Süd-Brücken. Finanziert wird das Programm aus
-      Bundesmitteln (BMZ) sowie von den Ländern. In Bayern ist das Eine Welt Netzwerk Bayern
-      e.V., der bayerische Dachverband der &quot;Eine Welt-Akteure&quot;, Träger und Koordinator des
-      Programmes. Angesiedelt ist die Stelle in Unterfranken bei der Initiative Eine Welt e.V.
-      Würzburg.
-      </p>
-      <p>
-      Kontakt:<br />
-      Eine Welt-Promotorin Unterfranken<br />
-      schurse@eineweltnetzwerkbayern.de<br />
-      </p>
-
-
       <h2 class="text-h4 text-orange">Weltladen / Eine Welt-Station Aschaffenburg</h2>
       <p>
       Seit 40 Jahren bietet unser Verein mit dem Verkauf fair gehandelter Waren eine
@@ -57,11 +32,11 @@
       </p>
       <p>
         Kontakt:<br />
-        Judith Aßländer<br />
-        DAHW Deutsche Lepra- und Tuberkulosehilfe e.V.<br />
+        Saanika Amembal,<br />
+	      DAHW Deutsche Lepra- und Tuberkulosehilfe e.V.<br />
         Raiffeisenstraße 3<br />
         97080 Würzburg<br />
-        Judith.Asslaender@DAHW.de<br />
+	      saanika.amembal@dahw.de
         <a href="https://www.dahw.de/unsere-arbeit/bildung-und-globales-lernen.html" target="_blank">https://www.dahw.de/unsere-arbeit/bildung-und-globales-lernen.html</a>
       </p>
 
@@ -87,6 +62,19 @@
         bildung@weltladen-wuerzburg.de<br />
         Tel.: 0931 – 17308<br />
         Ansprechpartnerinnen: Lea Pfeifer & Maria Sauter<br />
+      </p>
+
+      <h2 class="text-h4 text-blue">Weltladen und Eine Welt-Station Bad Neustadt/Saale</h2>
+      <p>
+        Als Weltladen stehen wir seit mehr als 30 Jahren für den Fairen Handel. Wir sind Fachgeschäft für fair gehandelte Produkte, ein Ort des Globalen Lernens und gehen mit unseren Bildungsangeboten in Schulen, kirchliche Gruppen und in die Volkshochschule. Als Laden und Team von ca. 30 Ehrenamtlichen sind wir überzeugt, dass ein anderes, ein ethisches Wirtschaften möglich und nötig ist, auch, aber nicht nur mit dem Globalen Süden. Daher haben wir als erster deutscher Weltladen eine Bilanz als Unternehmen der Gemeinwohl-Ökonomie erstellt, ein Wirtschaftsmodell, dessen Ziel ein gutes Leben für alle ist. Wir achten seither noch mehr auf ein faires, solidarisches, nachhaltiges und demokratisches Miteinander, mit unseren Lieferanten, unseren Kunden, Mitunternehmen und mit der Stadtgesellschaft.
+      </p>
+      <p>
+        Kontakt: <br/>
+        Norbert Dietzel <br/>
+	Eine Welt Laden<br/>
+	Hohnstr. 34<br/>
+	97616 Bad Neustadt<br/>
+	info@fairhandeln.de
       </p>
     </article>
   </q-page>
